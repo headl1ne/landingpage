@@ -1,0 +1,322 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Тег  "strong" удален для выделения некоторых слов */
+
+.main-title {
+  font-family: 'Arapey', serif;
+  color: #9DB0D1;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  margin: 100px 0 50px 0 ;
+}
+
+.second-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  width: 1024px;
+  margin: 0 auto 50px auto;
+}
+
+.center-button {
+  margin: 0 auto 50px auto;
+  display: block;
+}
+
+.button {
+  width: 267px;
+  height: 80px;
+  border-radius: 10px;
+  border: 0px;
+  color: #FFFFFF;
+  background-color: #EBAC87;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #9DB0D1;
+  border-radius: 50%;
+  display: block;
+  padding: 17px 15px 18px 15px;
+  margin: 0 15px;
+}
+
+.link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:none;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 0 25px 0 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  background: #87C6EB;
+  width: 100%;
+}
+
+.third-title {
+  background: url(../img/clouds.png) repeat-x top / auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 105px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: black;
+  position: static;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 350px;
+  height: 560px;
+  background:#fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.box.box-1  .eclipse,.box.box-2  .eclipse,.box.box-3  .eclipse {
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  color:#ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 16px  20px ;
+  }
+
+.box.box-1  .eclipse {
+  background-color: rgba(235, 172, 135, 0.4);
+}
+
+.box.box-2  .eclipse {
+  background-color: rgba(235, 172, 135, 0.6);
+}
+
+.box.box-3  .eclipse {
+  background-color: #EBAC87;
+}
+
+.mount {
+  background:#EBAC87;
+  width: 310px;
+  height: 310px;  
+  margin: 20px
+}
+
+.mount img {
+  width:100%;
+}
+
+.text-mount {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:none;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  font-weight: 400;
+  display:block;
+  padding: 20px 
+}
+
+.mountparagraph1 {
+  font-family: 'Arapey', serif;
+  color: #FFF;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: left;
+  align-items: center;
+  width: 600px;
+  height: 132px;
+}
+
+.mountparagraph2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#000000;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  align-items: center;
+  width: 600px;
+  height: 73px;
+}
+
+.check-btn {
+  width: 220px;
+  height: 80px;
+  border-radius: 10px;
+  border: 0px;
+  margin: 0 auto 50px auto;
+  color: #EBAC87;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 75px;
+}
+
+.container-border {
+  background: url(../img/mainmount.png) bottom right / auto 475px no-repeat;
+  min-height: 475px;
+}
+
+.mountext1 {
+  font-family: 'Arapey', serif;
+  color: #FFF;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: left;
+  width: 600px;
+  margin: 75px 120px;
+}
+
+.mountext2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  width: 600px;
+  margin: 75px 120px;
+}
+
+p a {
+  color: #000000;
+}
+
+.question {
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  color:#ffffff;
+  background-color: #EBAC87;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 60px;
+  padding: 10px 25px;
+}
+
+.question a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer2 {
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-button {
+  width: 267px;
+  height: 80px;
+  border-radius: 10px;
+  border: 0px;
+  color: #FFFFFF;
+  background-color: #EBAC87;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  margin: 50px 0 50px 75px;
+}
+
+.social {
+  margin: 80px 140px 80px 0;
+}
+
+.social a {
+  margin: 0 0 0 36px;
+}
+
+
+  /* 152 строка -> margin -> Я взял margin специально меньше в 2 раза, чтобы совпадало хотя бы близко с тем как на макете */
+  /* 221 строка ->  margin -> Не могу его довести до ума так, чтобы кнопка была на одном уровне с блоком где картинка маленькой горы. Если задать margin кнопке, то он тянет за собой и кружочек с "?", я понимаю что они на одной линии, но как им раздельно свойтсво написать?  */
+  /* 267 строка -> padding -> В Figma отступы 3/23, я сделал 10/25 для более лучшего вида */
